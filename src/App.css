@@ -1,0 +1,135 @@
+.App {
+  font-family: Anton;
+  text-align: center; 
+}
+
+.App-logo {
+  
+  height: 30vmin;
+  pointer-events: stroke;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 30s linear;
+  }
+}
+
+
+.App-header {
+  
+  background-color: #36393f;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Body {
+  text-align: center; 
+  background-color: #36393f;
+  min-height: 2300px;
+  display: flex;
+  flex-direction: column;
+  font-family: Anton;
+  font-size: calc(10px + 2vmin);
+  color:rgb(248, 135, 42) ;
+  
+}
+.App-link {
+  color: #f7941d;
+  background-color: #36393f;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-Welcome {
+  
+  background-color: #36393f;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Anton;
+  font-size: calc(10vh + 2vmin);
+  color: rgb(248, 135, 42) ;
+}
+
+.App-Navbar {
+  
+  background-color: #36393f;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Anton;
+  font-display: auto;
+  font-size: calc(18px + 1vmin);
+  color: white ;
+}
+
+.App-intro {
+  margin-top: 65px;
+  background-color: #36393f;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Anton;
+  font-display: auto;
+  font-size: calc(12px + 1vmin);
+  color: #36393f   ;
+}
+
+.App-footer {
+  font-family: Anton;
+  background-color: #36393f;
+  min-height: 10vh;
+}
+
+.App-endline {
+  background-color: rgb(248, 135, 42);
+  display: auto;
+  
+
+}
+.card {
+  box-shadow: 20px 20px 50px 0px rgb(0, 0, 0,.5);
+  block-size: 80px  ;
+  margin:  5vh; 
+  float: none; 
+  margin-bottom: 10px; 
+  align-items: center;
+  font: Anton;
+ 
+  justify-content: center ;
+  font: Anton;
+  display: auto;
+  
+
+}
+.card-block {
+  
+  box-shadow: 50px 50px 100px 0px rgb(248, 135, 42);
+  margin-top: 20px;
+  outline: auto ;
+  display: contents;
+  font: Anton;
+  color: rgb(248, 135, 42) ;
+}
+
+.TitleHead {
+  margin-top: 5vh;
+  font: Anton;
+  font-size: calc(10vh);
+}
+
+
