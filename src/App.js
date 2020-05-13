@@ -78,7 +78,7 @@ class App extends Component {
          <div className="App-Navbar">  <Navbars /></div> 
         </div>
         <div className="App-Body" >
-          <p className="App-Welcome">ComSci SI standard Converter</p>
+          <p className="App-Welcome">ComSci SI standard Converter {this.state.set1}</p>
           <div className="mt-4"> <img src={logo} className="App-logo" alt="logo" /></div> 
           <div className="App-intro"><Intro /> </div>
 {/*  Intro ---------------------------------------------------------------*/}  
