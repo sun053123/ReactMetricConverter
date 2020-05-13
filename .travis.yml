@@ -13,6 +13,7 @@ script: # run after installed
 install:
   npm install -g firebase-tools # install firebase-cli
 after_success:
-- firebase use --token ${FIREBASE_TOKEN} # set firebase token
-- firebase use --add ${PROJECT_ID} # set current project
-- firebase deploy --non-interactive --token "${FIREBASE_TOKEN}" # deploy project
+- firebase use --token ${1//0gm7YWUXPvfjkCgYIARAAGBASNwF-L9IrANQZdh1lLhVEsfJQbMG98K9e9MS6Vynv-M8PyWIGMVckctEq4OROupBx2tIfy1x67Yw} # set firebase token
+- firebase use --add ${csmetricconverter
+} # set current project
+- firebase deploy --non-interactive --token "${1//0gm7YWUXPvfjkCgYIARAAGBASNwF-L9IrANQZdh1lLhVEsfJQbMG98K9e9MS6Vynv-M8PyWIGMVckctEq4OROupBx2tIfy1x67Yw}" # deploy project
