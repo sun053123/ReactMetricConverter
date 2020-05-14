@@ -13,7 +13,7 @@ class App extends Component {
       Meterinput: "" ,
       Graminput: "" ,
       Timeinput: "",
-      set1: [1],
+      set1: [5],
     };
 
     this.toggleDiv1 = this.toggleDiv1.bind(this) ;
